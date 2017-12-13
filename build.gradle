@@ -1,0 +1,17 @@
+group 'com.specificationRetrieval'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+
+    compile 'org.kohsuke:github-api:1.90'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
